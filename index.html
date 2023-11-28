@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimes Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="main-header">
+            <div class="header">
+                <h1>Chicago Crimes Dashboard</h1>
+                <h4>Sherlock's Inner Circle</h4>
+            </div>
+            <div class="div-simple">
+                <h3>Analysis of Reported Crimes within Chicago (2001-2023)</h3>
+            </div>
+        </div>
+        <div class="grid">
+            <div>
+                <h2>Summary of Crimes per Year</h2>
+                <div id="vis1"></div>
+            </div>
+            <div>
+                <h2>Crimes by Type, Time of Day, & Block</h2>
+                <div id="vis2"></div>
+            </div>
+            <div>
+                <h2>Analysis of Number of Arrests VS Crimes for different Crime Types</h2>
+                <div id="vis3"></div>
+            </div>
+            <div>
+                <h2>Arrests by Type of Crime</h2>
+                <div id="vis4"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
